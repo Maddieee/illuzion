@@ -7,6 +7,18 @@
     border-color: #ffffff;
 }
 
+.navbar-brand
+{
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 .nav a
 {
     display: block;
