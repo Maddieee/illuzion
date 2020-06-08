@@ -1,6 +1,6 @@
 .navbar
 {
-    background-color: transparent;
+    overflow: hidden;
     font-family: 'Montserrat', sans-serif;
     padding: 20px 40px;
     box-sizing: border-box;
@@ -16,10 +16,10 @@
     line-height: 1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
 }
 
-.nav a
+.navbar-nav a
 {
     display: block;
     padding: 12px 20px;
@@ -29,13 +29,13 @@
     line-height: 1;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
 }
 
-.nav a:hover {
-    border-bottom: 3px solid black;
+.navbar-nav a:hover {
+    border-bottom: 3px solid #ffffff;
 }
   
-.nav a.active {
-    border-bottom: 3px solid black;
+.navbar-nav a.active {
+    border-bottom: 3px solid #ffffff;
 }

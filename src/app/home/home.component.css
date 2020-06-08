@@ -1,0 +1,8 @@
+
+ .section-wrap {
+    background-image: url(/assets/pics/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    opacity: 0.8;
+}
