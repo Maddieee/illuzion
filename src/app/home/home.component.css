@@ -1,8 +1,15 @@
 
- .section-wrap {
+ #header-background {
     background-image: url(/assets/pics/background.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 630px;
-    opacity: 0.8;
+    background-repeat: no-repeat;
+}
+.section-wrap{
+    padding: 20% 2%;
+}
+
+.header-section .section-wrap-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: white;
 }
