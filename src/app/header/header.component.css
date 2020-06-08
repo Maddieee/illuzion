@@ -1,10 +1,17 @@
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background-color:#26272b !important;
+    transition: background-color 200ms linear;
+}
+
 .navbar
 {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
     padding: 20px 40px;
-    box-sizing: border-box;
-    border-color: #ffffff;
 }
 
 .navbar-brand
@@ -32,10 +39,21 @@
     color: #ffffff;
 }
 
-.navbar-nav a:hover {
+/*.navbar-nav a:hover {
+    border-color: #ffffff;
     border-bottom: 3px solid #ffffff;
-}
+}*/
   
 .navbar-nav a.active {
-    border-bottom: 3px solid #ffffff;
+    border-color: #ffffff;
+    box-sizing: border-box;
+    /* border-bottom: 3px solid #ffffff; */
+}
+
+
+@media (max-width: 768px) {
+    .bg-dark {
+      background: #26272b !important;
+
+    }
 }
