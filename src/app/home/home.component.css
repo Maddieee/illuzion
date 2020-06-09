@@ -1,14 +1,22 @@
 #header-background {
-    background-image: url(/assets/pics/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.section-wrap{
-    padding: 20% 2%;
-}
+    background-image: linear-gradient(
+                        rgba(20,20,20, .5), 
+                        rgba(20,20,20, .5)), 
+                        url(/assets/pics/background.jpg);
+ }
 
 .header-section .section-wrap-template {
     padding: 3rem 1.5rem;
     text-align: center;
     color: white;
+}
+
+.header-section .section-wrap-template h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
