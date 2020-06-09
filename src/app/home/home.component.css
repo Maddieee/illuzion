@@ -1,14 +1,9 @@
-
- #header-background {
+#header-background {
     background-image: linear-gradient(
                         rgba(20,20,20, .5), 
                         rgba(20,20,20, .5)), 
                         url(/assets/pics/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 20% 2%;
-}
+ }
 
 .header-section .section-wrap-template {
     padding: 3rem 1.5rem;
