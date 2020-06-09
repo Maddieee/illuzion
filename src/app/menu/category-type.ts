@@ -1,4 +1,4 @@
-export enum ProductCategory {
+export enum CategoryType {
     BENTO_BOX_LUNCH = "BENTO_BOX_LUNCH",
     SUSHI_BAR_LUNCH = "SUSHI_BAR_LUNCH",
     RICE_AND_NOODLES_LUNCH = "RICE_AND_NOODLES_LUNCH",

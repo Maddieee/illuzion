@@ -1,8 +1,9 @@
+import { Product } from './product';
 import { CategoryType } from './category-type';
-import { JsonProperty, JsonObject } from 'json2typescript';
+import { JsonObject, JsonProperty } from 'json2typescript';
 
-@JsonObject("Product")
-export class Product {
+@JsonObject("Category")
+export class Category {
     @JsonProperty("id", Number)
     private _id: number;
     @JsonProperty("categoryType", CategoryType)
@@ -11,12 +12,12 @@ export class Product {
     private _name: string;
     @JsonProperty("description", String)
     private _description: string;
-    @JsonProperty("price", Number)
-    private _price: number;
-
+    @JsonProperty("product", Product)
+    private _products: Product[]
+    
     constructor() {}
-
-	public get id(): number {
+    
+    public get id(): number {
         return this._id;
     }
 
@@ -48,13 +49,11 @@ export class Product {
         this._description = value;
     }
 
-    public get price(): number {
-        return this._price;
+    public get product(): Product[] {
+        return this._products;
     }
 
-    public set price(value: number) {
-        this._price = value;
+    public set price(value: Product[]) {
+        this._products = value;
     }
-
-
 }
