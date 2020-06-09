@@ -36,24 +36,29 @@
     line-height: 1;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: rgba(255,255,255,.7);
+}
+
+.navbar-nav a:hover {
     color: #ffffff;
 }
-
-/*.navbar-nav a:hover {
-    border-color: #ffffff;
-    border-bottom: 3px solid #ffffff;
-}*/
   
 .navbar-nav a.active {
-    border-color: #ffffff;
-    box-sizing: border-box;
-    /* border-bottom: 3px solid #ffffff; */
+    font-weight: 600;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .bg-dark {
       background: #26272b !important;
+    }
 
+    .navbar-nav{
+        padding: 10px 5px;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .navbar {
+        padding: 10px 20px;
     }
 }
