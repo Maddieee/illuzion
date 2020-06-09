@@ -3,7 +3,6 @@ import { Category } from './category';
 import { Product } from './product';
 import { CategoryType } from './category-type';
 import { of, Observable } from 'rxjs';
-import {JsonConvert} from "json2typescript"
 
 @Injectable({
   providedIn: 'root'
@@ -36,9 +35,7 @@ export class CategoryService {
   constructor() {}
 
   getCategories() : Observable<Category[]> {
-    let jsonConvert = new JsonConvert();
-    let test = jsonConvert.deserializeObject(this.categories[0], Category); 
-    return of(jsonConvert.deserializeArray(this.categories, Category));
+    return null;
   }
 
 }

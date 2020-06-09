@@ -1,17 +1,10 @@
 import { CategoryType } from './category-type';
-import { JsonProperty, JsonObject } from 'json2typescript';
 
-@JsonObject("Product")
 export class Product {
-    @JsonProperty("id", Number)
-    private _id: number;
-    @JsonProperty("categoryType", CategoryType)
+    private _id: number = 0;
     private _categoryType: CategoryType;
-    @JsonProperty("name", String)
     private _name: string;
-    @JsonProperty("description", String)
     private _description: string;
-    @JsonProperty("price", Number)
     private _price: number;
 
     constructor() {}

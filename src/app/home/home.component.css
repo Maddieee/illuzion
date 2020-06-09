@@ -3,6 +3,9 @@
                         rgba(20,20,20, .5), 
                         rgba(20,20,20, .5)), 
                         url(/assets/pics/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 2%;
  }
 
 .header-section .section-wrap-template {
