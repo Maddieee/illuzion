@@ -1,33 +1,22 @@
 <section id="header-background">
     <div class="header-section section-wrap">
         <div class="section-wrap-template">
-            <h1>Menu works!</h1>   
-            <p> random text <br> random text</p>
-            <button type="button" class="btn btn-outline-light">Light</button>
+            <h1>Menu</h1>
         </div>
     </div>
 </section>
 
-<div class="section-wrap">
-    <div class="section-wrap-template">
-        <h1>Home works!</h1>   
-        <p> random text <br> random text</p>
-        <button type="button" class="btn btn-outline-light">Light</button>
-    </div>
-</div>
-
-<div class="section-wrap">
-    <div class="section-wrap-template">
-        <h1>Home works!</h1>   
-        <p> random text <br> random text</p>
-        <button type="button" class="btn btn-outline-light">Light</button>
-    </div>
-</div>
-
-<div class="section-wrap">
-    <div class="section-wrap-template">
-        <h1>Home works!</h1>   
-        <p> random text <br> random text</p>
-        <button type="button" class="btn btn-outline-light">Light</button>
+<div class="container">
+    <div *ngFor="let category of categories">
+        <h1> {{category?.name}} </h1>
+        <p> {{category?.description}} </p>
+        <div *ngFor="let product of category?.products">
+            <h3>
+                <span> {{product?.name}} </span>
+                <span class='dots'></span>
+                <span> ${{product?.price}} </span>
+            </h3>
+            <p> {{product?.description}} </p>
+        </div>
     </div>
 </div>
