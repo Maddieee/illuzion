@@ -1,0 +1,29 @@
+<section id="header-background">
+    <div class="header-section section-wrap">
+        <div class="section-wrap-template">
+            <h1>Menu</h1>
+        </div>
+    </div>
+</section>
+<div>
+    <div class="menu-text">
+        <div *ngFor="let category of categories">
+            <h1> {{category?.name}} </h1>
+            <p> {{category?.description}} </p>
+            <div *ngFor="let product of category?.products">
+                <h3>
+                    <span> {{product?.name}} </span>
+                    <span class='dots'></span>
+                    <span> ${{product?.price}} </span>
+                </h3>
+                <p> {{product?.description}} </p>
+            </div>
+        </div>
+    </div>
+    <div class="menu-image">
+        <img src="https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=150&h=100&fit=crop 150w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=200&h=133&fit=crop 200w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=267&h=178&fit=crop 267w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=400&h=267&fit=crop 400w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=600&h=400&fit=crop 600w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=800&h=533&fit=crop 800w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=1000&h=667&fit=crop 1000w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=1200&h=800&fit=crop 1200w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=1600&h=1067&fit=crop 1600w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=2000&h=1333&fit=crop 2000w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=2400&h=1600&fit=crop 2400w,https://i.dietdoctor.com/wp-content/uploads/2018/08/DD-647-lowcarbsushi-2.jpg?auto=compress%2Cformat&w=4800&h=3200&fit=crop 4800w">
+        <img src="https://bamboosushi.com/wp-content/uploads/2019/12/Our-Menu_Restaurant-of-Change_Bamboo-Sushi-1900x840.png">
+        <img src="https://c.tfstatic.com/w_656,h_368,c_fill,g_auto:subject,q_auto,f_auto/restaurant_photos/611/475611/source/kappa-sushi-bar-sugestao-do-chef-cfdb9.jpg">
+    </div>
+</div>
+

@@ -24,13 +24,6 @@
     text-transform: uppercase;
 }
 
-.menu-categories {
-  text-align: center;
-  button {
-    margin: 10px;
-  }
-}
-
 // Menu
 *, *:after, *:before {
   box-sizing: border-box;
@@ -47,10 +40,11 @@
   }
 }
 
-.container {
+.menu-text {
   @include clearfix;
-  width: 70%;
-  margin: 1em auto;
+  display: inline-block;
+  width: 46%;
+  margin: 2%;
   border: 1px solid #ddd;
   padding: .3em .6em;
   p {
@@ -58,6 +52,18 @@
     color: #777;
     margin-bottom: 1.5em;
     font-style: italic;
+  }
+}
+
+.menu-image {
+  position: absolute;
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 48%;
+  display: inline-block;
+  img {
+    width: 100%;
+    margin-bottom: 2%;
   }
 }
 

@@ -10,14 +10,19 @@ import { CategoryService } from './category.service';
 export class MenuComponent implements OnInit {
 
   categories: Category[];
+  selected: Category;
 
   constructor(private categoryService: CategoryService) { }
 
   ngOnInit(): void {
     this.categoryService.getCategories().subscribe(categories => {
       this.categories = categories;
-      console.log(this.categories);
+      this.selected = this.categories[0];
     });
+  }
+
+  onClickCategory(category: Category) {
+    this.selected = category;
   }
 
 }
