@@ -28,8 +28,13 @@ export class CategoryService {
     {id: 15, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Alligator', description: 'shrimp tempura, mango, cream cheese, cucumber, avocado, topped with eel', price: 17},
     {id: 16, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'King of Rock', description: 'spicy tuna, spicy king salmon, spicy yellowtail, shrimp tempura, avocado inside, wrapped with isonoyuki-kombu paper', price: 17},
     {id: 17, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Summer of Hoboken', description: 'spicy tuna, spicy king salmon, tempura falkes inside, wrapped with sliced avocado & rice paper(no rice)', price: 17},
-  
-  
+    {id: 18, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Sunset Boulevard', description: 'steamed lobster, avocado, cucumber topped with mango, caviar & spicy sauce', price: 17},
+    {id: 19, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Sweet Heart', description: 'spicy tuna & tempura flakes rolled with soy bean seaweed & tuna on top', price: 17},
+    {id: 20, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'The Last Tango in Paris', description: 'shrimp tempura, sspicy king salmon inside, topped with steamed lobster', price: 17},
+    {id: 21, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'The Iron Lady', description: 'chilean seabass tempura, spicy lobster, cucumber inside, topped with spicy scallop', price: 17},
+    {id: 22, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Sleepless in Seattle', description: 'spicy yellowtail, shrimp tempura, avocado, jalapeno inside, topped with blue fin toro or tuna', price: 17},
+    {id: 23, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Sakura "N" Hanami', description: 'spicy tuna, spicy lobster, shrimp tempura, sweet mango & avocado, wrapped in soy bean nori', price: 17},
+    {id: 24, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Rock of Love', description: 'spicy tuna, soft shell crab tempura, avocado topped with tuna, king salmon, yellowtail & red tobiko', price: 17},
   ]
 
   soup: Array<Object> = [
@@ -38,6 +43,18 @@ export class CategoryService {
     {id: 1, categoryType: CategoryType.SOUP, name: 'Mushroom Soba Soup', description: '', price: 7},
     {id: 1, categoryType: CategoryType.SOUP, name: 'Chicken Vegetable Soup', description: '', price: 7},
     {id: 1, categoryType: CategoryType.SOUP, name: 'Seafood Kimchee Soup', description: '', price: 10}
+  ]
+
+  salad: Array<Object> = [
+    {id: 1, categoryType: CategoryType.SALAD, name: 'Fresh Garden Salad', description: 'with ginger beat dressing', price: 4},
+    {id: 1, categoryType: CategoryType.SALAD, name: 'Kani Salad', description: 'with mayonnaise', price: 6},
+    {id: 1, categoryType: CategoryType.SALAD, name: 'Avocado Salad', description: '', price: 6},
+    {id: 1, categoryType: CategoryType.SALAD, name: 'Seaweed Salad', description: '', price: 6},
+    {id: 1, categoryType: CategoryType.SALAD, name: 'Salmon Skin Salad', description: '', price: 7},
+  ]
+
+  hotAppetizer: Array<Object> = [
+    // {id: 1, categoryType: CategoryType.HOT_APPETIZER, name: '', description: '', price: },
   ]
 
 
