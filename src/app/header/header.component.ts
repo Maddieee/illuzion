@@ -12,9 +12,4 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  onClickMenu() {
-    this.router.navigate(['menu']);
-  }
-
 }
