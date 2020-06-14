@@ -10,12 +10,13 @@
   
 .header-section .section-wrap-template {
     padding: 3rem 1.5rem;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
-.header-section .section-wrap-template h1 {
+.section-wrap-template h1 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 50px;
     font-weight: 700;
     line-height: 1;
@@ -24,15 +25,49 @@
     text-transform: uppercase;
 }
 
-.section-wrap {
-    padding: 3rem 1.5rem;
+.section-wrap h1 {
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.section-wrap{
+    padding: 50px 100px;
+}
+
+.section-wrap .column{
+    padding: 50px 50px;
 }
 
 .section-wrap p {
     font-family: 'Clarkson',Helvetica,sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.03em;
     padding-bottom: 10px;
+}
+
+@media (max-width: 1432px) {
+    .section-wrap h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    
+    .section-wrap p {
+        font-family: 'Clarkson',Helvetica,sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.03em;
+        padding-bottom: 10px;
+    }
+
+    .section-wrap{
+        padding: 25px 50px;
+    }
+
+    .section-wrap .column{
+        padding: 25px 25px;
+    }
 }
