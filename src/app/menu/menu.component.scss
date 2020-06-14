@@ -24,6 +24,7 @@
     text-transform: uppercase;
 }
 
+// Menu
 .menu-categories {
   text-align: center;
   button {
@@ -31,7 +32,11 @@
   }
 }
 
-// Menu
+.menu {
+  background-color: #b7a48f;
+  padding-bottom: 10px;
+}
+
 *, *:after, *:before {
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
@@ -50,12 +55,11 @@
 .container {
   @include clearfix;
   width: 70%;
-  margin: 1em auto;
   border: 1px solid #ddd;
   padding: .3em .6em;
   p {
     font-size: .9em;
-    color: #777;
+    color: #545667;
     margin-bottom: 1.5em;
     font-style: italic;
   }
@@ -79,8 +83,8 @@ h3 {
   }
   .dots {
     width: 40%;
-    border-bottom: 2px dotted #ccc;
-    margin-top: .8em;
+    border-bottom: 2px dotted #000;
+    margin-top: .5em;
   }
 }
 
