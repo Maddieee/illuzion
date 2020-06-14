@@ -134,7 +134,84 @@ export class CategoryData {
         {id: 1, categoryType: CategoryType.ILLUZION_TODAYS_SPECIAL, name: 'Sushi & Sashimi', description: '10 pcs. sushi & 20 pcs. sashimi', price: 80}
     ]
 
+    public static sushiAndSashimiALaCarte: Array<Object> = [
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Tuna', description: 'Maguro', price: 5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Blue Fin', description: 'Toro', price: 9},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'King Salmon', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Yellowtail', description: 'Hamachi', price: 5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Spanish Mackerel', description: 'Sawara', price: 4},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Eel', description: 'Unagi', price: 4},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Crab', description: 'Kani', price: 2.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'King Crab Leg', description: '', price: 9},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Shrimp', description: 'Ebi', price: 2.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Botan Shrimp', description: '', price: 4},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Squid', description: 'Ika', price: 3.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Octopus', description: 'Tako', price: 3.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Scallop', description: 'Hotate', price: 4},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Sea Urchin', description: 'Uni', price: 7},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Salmon Roe', description: 'Ikura', price: 3.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Flying Fish Roe', description: 'Tobiko', price: 3.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Egg', description: 'Tamago', price: 2.5},
+        {id: 1, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Japanese White Fish', description: 'Daily special selections from Japan including Red Sea Bream (Madai), Japanese Butter Fish (Medai), Flying Fish (Tobiuo), Black Porgy (Me Jina), Grunt (Isaki) & etc.', price: 5}
+    ]
 
+    public static rollsAndHandRolls: Array<Object> = [
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Avocado', description: '', price: 4.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Avocado Cucumber', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Sweet Potato', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Avocado Mango', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'California', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Tuna', description: '', price: 6},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Tuna Avocado/Cucumber', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Toro Scallion/Jalapeno', description: '', price: 9.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'King Salmon', description: '', price: 6},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'King Salmon Avocado', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Smoked Salmon Cream Cheese', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Yellowtail Scallion', description: '', price: 6},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Yellowtail Jalapeno', description: '', price: 6},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Salmon Skin', description: '', price: 6},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Eel Cucumber/Avocado', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy California', description: '', price: 5.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Tuna', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Tuna Avocado', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy King Salmon', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Yellowtail', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Scallop', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy King Crab California', description: '', price: 10},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Shrimp Cucumber', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Shrimp Avocado', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Shrimp Tempura', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Chicken Tempura', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Seafood Tempura', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Softshell Crab Tempura', description: '', price: 9.5},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Spicy Lobster Mango Cucumber', description: '', price: 11},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Lobster Tempura', description: '', price: 10},
+        {id: 1, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Dragon', description: '', price: 10}
+    ]
+
+    public static desserts: Array<Object> = [
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Vanilla Ice Cream', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Green Tea Ice Cream', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Green Tea Mochi', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Red Bean Mochi', description: '', price: 5},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Warm Chocolate Lava Cake', description: '', price: 6.5},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Tempura Banana with Strawberry & Vanilla Ice Cream', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Vanilla Tempura Ice Cream', description: '', price: 7},
+        {id: 1, categoryType: CategoryType.DESSERTS, name: 'Green Tea Tempura Ice Cream', description: '', price: 7}
+    ]
+
+    public static beverages: Array<Object> = [
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Coke', description: '', price: 2},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Diet Coke', description: '', price: 2},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Seltzer Water', description: '', price: 2},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Sprite', description: '', price: 2},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Ginger Ale', description: '', price: 2},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Japanese Calpico Original Soft Drink', description: '', price: 3},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Fi Ji', description: '500ml', price: 2.5},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Hot Green Tea', description: '', price: 3},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Oi-ocha Cold Green Tea', description: '', price: 3},
+        {id: 1, categoryType: CategoryType.BEVERAGES, name: 'Illuzion Frostee', description: 'lemon-mint ice tea with coconut cream', price: 4},
+    ]
 
     public static categories: Array<Object> = [
         {id: 1, categoryType: CategoryType.CHEFS_SPECIAL_ROLLS, name: 'Chef\'s Special Rolls', description: '', products: CategoryData.chefsSpecialRolls},
@@ -145,6 +222,10 @@ export class CategoryData {
         {id: 6, categoryType: CategoryType.KITCHEN_ENTREE, name: 'Kitchen Entree', description: 'Served with Miso Soup or Salad', products: CategoryData.kitchenEntree},
         {id: 7, categoryType: CategoryType.KITCHEN_ENTREE, name: 'Fried Rice & Noodles', description: 'Served with Miso Soup or Salad', products: CategoryData.friedRiceAndNoodles},
         {id: 7, categoryType: CategoryType.SUSHI_BAR_ENTREE, name: 'Sushi Bar Entree', description: 'Served with Miso Soup or Salad', products: CategoryData.sushiBarEntree},
-        {id: 8, categoryType: CategoryType.ILLUZION_TODAYS_SPECIAL, name: 'Illuzion Today\'s Special', description: 'Chef\'s special tasting platter, fresh Japanese seafood air shipped from Tokyo Tsukiji Market', products: CategoryData.illuzionTodaysSpecial}
+        {id: 8, categoryType: CategoryType.ILLUZION_TODAYS_SPECIAL, name: 'Illuzion Today\'s Special', description: 'Chef\'s special tasting platter, fresh Japanese seafood air shipped from Tokyo Tsukiji Market', products: CategoryData.illuzionTodaysSpecial},
+        {id: 9, categoryType: CategoryType.SUSHI_AND_SASHIMI_A_LA_CARTE, name: 'Sushi & Sashimi A La Carte', description: '', products: CategoryData.sushiAndSashimiALaCarte},
+        {id: 10, categoryType: CategoryType.ROLLS_AND_HAND_ROLLS, name: 'Rolls/Hand Rolls', description: '', products: CategoryData.rollsAndHandRolls},
+        {id: 11, categoryType: CategoryType.DESSERTS, name: 'Desserts', description: '', products: CategoryData.desserts},
+        {id: 8, categoryType: CategoryType.BEVERAGES, name: 'Beverages', description: '', products: CategoryData.beverages}
     ];
 }

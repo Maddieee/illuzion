@@ -25,6 +25,11 @@
 }
 
 // Menu
+.menu {
+  background-color: #b7a48f;
+  padding-bottom: 10px;
+}
+
 .menu-categories {
   text-align: center;
   button {
@@ -32,9 +37,9 @@
   }
 }
 
-.menu {
-  background-color: #b7a48f;
-  padding-bottom: 10px;
+.menu-notice {
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 *, *:after, *:before {
