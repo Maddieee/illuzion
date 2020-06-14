@@ -5,10 +5,10 @@
         </div>
     </div>
 </section>
-<div class="menu-categories">
-    <button *ngFor="let category of categories" type="button" class="btn btn-black" (click)="onClickCategory(category)">{{ category.name }}</button>
-</div>
-<div>
+<div class="menu">
+    <div class="menu-categories">
+        <button *ngFor="let category of categories" type="button" class="btn btn-black" (click)="onClickCategory(category)">{{ category.name }}</button>
+    </div>
     <div class="container">
         <div>
             <h1> {{selected?.name}} </h1>
@@ -24,4 +24,5 @@
         </div>
     </div>
 </div>
+
 
