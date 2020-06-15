@@ -28,6 +28,16 @@
 .menu {
   background-color: #b7a48f;
   padding-bottom: 10px;
+  .menu-categories {
+    a:hover {
+      color: #a53e3e;
+      text-decoration: underline;
+    }
+    a.active {
+      color: #a53e3e;
+      text-decoration: underline;
+    }
+  }
 }
 
 .menu-categories {
@@ -38,8 +48,8 @@
 }
 
 .menu-notice {
-  padding-right: 15%;
-  padding-left: 15%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 *, *:after, *:before {
@@ -60,13 +70,17 @@
 .container {
   @include clearfix;
   width: 70%;
-  border: 1px solid #ddd;
+  border: 1px solid black;
   padding: .3em .6em;
   p {
     font-size: .9em;
     color: #545667;
     margin-bottom: 1.5em;
     font-style: italic;
+  }
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
