@@ -7,7 +7,7 @@
 </section>
 <div class="menu">
     <div class="menu-categories">
-        <button *ngFor="let category of categories" type="button" class="btn btn-black" (click)="onClickCategory(category)">{{ category.name }}</button>
+        <a *ngFor="let category of categories" class="btn btn-black" (click)="onClickCategory(category)" [class.active]="selected === category" >{{ category.name }}</a>
     </div>
     <div class="container">
         <div>
