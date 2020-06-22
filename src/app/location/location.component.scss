@@ -1,0 +1,16 @@
+#header-background {
+    background-image: linear-gradient(
+                        rgba(20,20,20, .5), 
+                        rgba(20,20,20, .5)), 
+                        url(/assets/pics/background.jpg);
+}
+.location {
+    margin: 1em;
+    text-align: center;
+    width: 100%;
+    .map {
+        border: 1px solid black;
+        width: 50%;
+        height: 500px;
+    }
+}

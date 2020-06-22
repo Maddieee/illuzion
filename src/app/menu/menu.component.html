@@ -6,9 +6,12 @@
     </div>
 </section>
 <div class="menu">
-    <div class="menu-categories">
-        <a *ngFor="let category of categories" class="btn btn-black" (click)="onClickCategory(category)" [class.active]="selected === category" >{{ category.name }}</a>
+    <div class="menu-categories-border">
+        <div class="menu-categories">
+            <button *ngFor="let category of categories" class="draw" (click)="onClickCategory(category)" [class.active]="selected === category" >{{ category.name }}</button>
+        </div>
     </div>
+    
     <div class="container">
         <div>
             <h1> {{selected?.name}} </h1>
@@ -24,12 +27,14 @@
         </div>
     </div>
     <div class="menu-notice">
-        <p>* Please alert your server to any food allergies before ordering.</p>
-        <p>* Please ask for our Daily Specials.</p>
-        <p>* We use extra virgin olive oil and guarantee no MSG.</p>
-        <p>* No extra charge on substitution of brown rice for white rice.</p>
-        <p>* Additional charge may apply to any extra requests for sauce, dressing, food ingredients, utensil & etc.</p>
-        <p>* Prices are subject to changes without notice.</p>
+        <div>
+            <p>* Please alert your server to any food allergies before ordering.</p>
+            <p>* Please ask for our Daily Specials.</p>
+            <p>* We use extra virgin olive oil and guarantee no MSG.</p>
+            <p>* No extra charge on substitution of brown rice for white rice.</p>
+            <p>* Additional charge may apply to any extra requests for sauce, dressing, food ingredients, utensil & etc.</p>
+            <p>* Prices are subject to changes without notice.</p>
+        </div>
     </div>
 </div>
 
