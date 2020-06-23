@@ -5,12 +5,18 @@
                         url(/assets/pics/background.jpg);
 }
 .location {
+    display: flex;
     margin: 1em;
     text-align: center;
     width: 100%;
-    .map {
+    .map-border {
+        padding: 1em;
+        width: 50vw;
         border: 1px solid black;
-        width: 50%;
-        height: 500px;
+        .map {
+            width: 100%;
+            height: 500px;
+        }
     }
+    
 }
